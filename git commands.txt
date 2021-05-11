@@ -1,0 +1,45 @@
+# To  get download your package from github:
+git clone https://github.com/booksandbakes/github.git
+
+#  To check whether all migrated or not , if not then it will be in red color
+git status
+
+Admin@UNIVERSE MINGW64 ~/github (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   NetHood.txt //green color in staging stage
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        logo.txt //red colour newly created file
+
+
+
+#to add all files to stages:
+ git add *
+
+#commit changes by giving lable:
+git commit -m '__lable__'
+
+Admin@UNIVERSE MINGW64 ~/github (main)
+$ git commit -m 'first commit for the file'
+[main 0a4e31a] first commit for the file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 NetHood.txt
+
+# git log shows all the changes
+git log
+
+# git push
+
+# git difftool shows difference btw your local changes and previews version of the file 
+
+:git difftool HEAD
+
+
+
+:::: git add, git commit, git push
